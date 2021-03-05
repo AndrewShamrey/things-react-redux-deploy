@@ -1,0 +1,31 @@
+.thing-container {
+  position: relative;
+  width: 100%;
+  padding: 3px 10px;
+  padding-right: 55px;
+  margin: 5px 0;
+  border-radius: 2px;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-style: italic;
+  font-weight: 600;
+  text-align: left;
+  line-height: 1.2em;
+  box-shadow: 0 0 6px rgb(0 0 0 / 30%);
+  background: #3f3f3f;
+  color: #dcdcdc;
+}
+
+::selection {
+  background: #d33682;
+  color: #fff;
+  text-shadow: none;
+}
+
+.thing-key {
+  text-indent: 1.5em;
+  color: #dcdcdc;
+}
+
+.thing-value {
+  color: #cc9393;
+}
